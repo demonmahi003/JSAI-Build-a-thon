@@ -1,28 +1,37 @@
 {
-  "name": "jsai-build-a-thon",
+  "name": "",
   "version": "1.0.0",
-  "description": "> To reset your progress and select a different quest, click this button:\r >\r > [![Reset Progress](https://img.shields.io/badge/Reset--Progress-ff3860?logo=mattermost)](../../issues/new?title=Reset+Progress:+Back+to+Welcome&labels=reset&body=🔄+I+want+to+reset+my+progress+and+go+back+to+the+Welcome+page.%0A%0A**Please+wait+about+15+seconds.+Your+progress+will+be+reset,+this+issue+will+automatically+close,+and+you+will+be+taken+back+to+the+Welcome+page+to+select+a+new+quest.**)",
+  "description": "",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
   },
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/demonmahi003/JSAI-Build-a-thon.git"
+    "url": ""
   },
+  "bugs": "",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/demonmahi003/JSAI-Build-a-thon/issues"
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
   },
-  "homepage": "https://github.com/demonmahi003/JSAI-Build-a-thon#readme",
+  "contributors": [],
+  "scripts": {
+    "dev": "",
+    "test": ""
+  },
   "dependencies": {
     "@azure-rest/ai-inference": "^1.0.0-beta.6",
     "@azure/core-auth": "^1.9.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.5.0",
-    "node-fetch": "^3.3.2",
-    "sharp": "^0.34.2"
+    "express": "^5.1.0"
   }
 }
